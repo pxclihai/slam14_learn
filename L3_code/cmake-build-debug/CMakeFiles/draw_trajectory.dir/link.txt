@@ -1,0 +1,1 @@
+g++  -std=c++11 -march=native -O3 -O3 -DNDEBUG  -rdynamic CMakeFiles/draw_trajectory.dir/draw_trajectory.cpp.o  -o draw_trajectory -Wl,-rpath,/home/pcxlihai/Downloads/Sophus/build:/home/pcxlihai/Downloads/Pangolin/build/src /home/pcxlihai/Downloads/Sophus/build/libSophus.so /home/pcxlihai/Downloads/Pangolin/build/src/libpangolin.so -lGLU -lGL -lGLEW -lX11 -lXext -lrt -lpthread 

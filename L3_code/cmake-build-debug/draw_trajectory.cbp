@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="draw_trajectory"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\Downloads\;CMake Files\..\..\..\Downloads\Sophus\;CMake Files\..\..\..\Downloads\Sophus\build\;CMake Files\..\..\..\Downloads\Pangolin\;CMake Files\..\..\..\Downloads\Pangolin\build\;CMake Files\..\..\..\Downloads\Pangolin\build\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/pcxlihai/slam/projects/code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pcxlihai/slam/projects/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pcxlihai/slam/projects/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pcxlihai/slam/projects/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pcxlihai/slam/projects/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/pcxlihai/slam/projects/code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pcxlihai/slam/projects/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pcxlihai/slam/projects/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pcxlihai/slam/projects/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pcxlihai/slam/projects/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/pcxlihai/slam/projects/code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pcxlihai/slam/projects/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pcxlihai/slam/projects/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pcxlihai/slam/projects/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pcxlihai/slam/projects/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="draw_trajectory">
+				<Option output="/home/pcxlihai/slam/projects/code/cmake-build-debug/draw_trajectory" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pcxlihai/slam/projects/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pcxlihai/Downloads/Sophus"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/pcxlihai/Downloads/Pangolin/include"/>
+					<Add directory="/home/pcxlihai/Downloads/Pangolin/build/src/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pcxlihai/slam/projects/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 draw_trajectory"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pcxlihai/slam/projects/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pcxlihai/slam/projects/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pcxlihai/slam/projects/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="draw_trajectory/fast">
+				<Option output="/home/pcxlihai/slam/projects/code/cmake-build-debug/draw_trajectory" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pcxlihai/slam/projects/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pcxlihai/Downloads/Sophus"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/pcxlihai/Downloads/Pangolin/include"/>
+					<Add directory="/home/pcxlihai/Downloads/Pangolin/build/src/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pcxlihai/slam/projects/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 draw_trajectory/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pcxlihai/slam/projects/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pcxlihai/slam/projects/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pcxlihai/slam/projects/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/pcxlihai/slam/projects/code/draw_trajectory.cpp">
+			<Option target="draw_trajectory"/>
+		</Unit>
+		<Unit filename="/home/pcxlihai/slam/projects/code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/pcxlihai/slam/projects/code/../../../Downloads/Sophus/build/SophusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Downloads\Sophus\build\"/>
+		</Unit>
+		<Unit filename="/home/pcxlihai/slam/projects/code/../../../Downloads/Pangolin/build/src/PangolinConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Downloads\Pangolin\build\src\"/>
+		</Unit>
+		<Unit filename="/home/pcxlihai/slam/projects/code/../../../Downloads/Pangolin/build/src/PangolinConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Downloads\Pangolin\build\src\"/>
+		</Unit>
+		<Unit filename="/home/pcxlihai/slam/projects/code/../../../Downloads/Pangolin/build/src/PangolinTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Downloads\Pangolin\build\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
