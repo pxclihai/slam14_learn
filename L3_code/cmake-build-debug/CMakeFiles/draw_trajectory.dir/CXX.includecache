@@ -706,7 +706,7 @@ Eigen/StdVector
 Eigen/Geometry
 -
 
-/home/pcxlihai/slam/projects/code/draw_trajectory.cpp
+/home/pcxlihai/slam/projects/slam14_learn/L3_code/draw_trajectory.cpp
 sophus/se3.h
 -
 string

@@ -70,7 +70,7 @@ CMakeFiles/draw_trajectory.dir/draw_trajectory.cpp.o
  /home/pcxlihai/Downloads/Pangolin/include/pangolin/video/video_output_interface.h
  /home/pcxlihai/Downloads/Sophus/sophus/se3.h
  /home/pcxlihai/Downloads/Sophus/sophus/so3.h
- /home/pcxlihai/slam/projects/code/draw_trajectory.cpp
+ /home/pcxlihai/slam/projects/slam14_learn/L3_code/draw_trajectory.cpp
  /usr/local/include/eigen3/Eigen/Cholesky
  /usr/local/include/eigen3/Eigen/Core
  /usr/local/include/eigen3/Eigen/Geometry

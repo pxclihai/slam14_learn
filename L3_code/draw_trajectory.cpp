@@ -14,15 +14,24 @@ string trajectory_file = "../trajectory.txt";
 // function for plotting trajectory, don't edit this code
 // start point is red and end point is blue
 void DrawTrajectory(vector<Sophus::SE3, Eigen::aligned_allocator<Sophus::SE3>>);
-
+void ReadPose(vector<Sophus::SE3, Eigen::aligned_allocator<Sophus::SE3>> &poses);
 int main(int argc, char **argv) {
 
     vector<Sophus::SE3, Eigen::aligned_allocator<Sophus::SE3>> poses;
 
     /// implement pose reading code
     // start your code here (5~10 lines)
-
+    ReadPose(poses);
     // end your code here
+
+    // draw trajectory in pangolin
+    DrawTrajectory(poses);
+    return 0;
+}
+
+/*******************************************************************************************/
+void ReadPose(vector<Sophus::SE3, Eigen::aligned_allocator<Sophus::SE3>> &poses)
+{
     ifstream in(trajectory_file);
     string readTxt;
     string Time;
@@ -35,20 +44,19 @@ int main(int argc, char **argv) {
             istringstream outNum(readTxt);
             outNum>>Time>>Tx>>Ty>>Tz>>Qx>>Qy>>Qz>>Qw; //字符串流处理
             Eigen::Quaterniond q(Qx,Qy,Qz,Qw);            // 或者四元数
+            Eigen::Matrix3d ei ;
+            ei = q.toRotationMatrix();
+            ei.log();
             Eigen::Matrix<double,3,1> t(Tx,Ty,Tz);
             Sophus::SE3 SE3_qt(q,t);            // 从q,t构造SE(3)
             poses.push_back(SE3_qt);
+
         }
     } else
     {
         cout<<"error::no data"<<endl;
-
     }
-    // draw trajectory in pangolin
-    DrawTrajectory(poses);
-    return 0;
 }
-
 /*******************************************************************************************/
 void DrawTrajectory(vector<Sophus::SE3, Eigen::aligned_allocator<Sophus::SE3>> poses) {
     if (poses.empty()) {
